@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(4, 4, 61);
+    color: aliceblue;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    padding: 0.5rem;
+}
+
+
+.buttons btn {
+    padding: 10px;
+    cursor: pointer;
+}
+h3 {
+    color: rgb(63, 112, 203);
+    text-align: center;
+    
+}
+.nav-bar2 p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.btn:hover {
+    background-color: rgb(46, 114, 154);
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+.button2{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 0.8rem;
+}
+.btn1 {
+    padding: 15px 25px;
+    cursor: pointer;
+
+}
+
+.btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+}
+#button2 {
+    background-color: rgb(54, 129, 242);
+}
+#button3 {
+    background-color: rgb(54, 129, 242);
+    border:1px solid rgb(24, 104, 185);
+}
+.boxs{
+    width: 100%;
+    height:15rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+}
+.boxs p{
+text-align: justify;
+word-spacing: 1px;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height:100%;
+    justify-content: space-between;
+
+}
+
+.small-box1 {
+    width: calc(35% - 2rem);
+    height: calc(35% - 2rem);
+    border: 1px solid bisque;
+    background-color: rgb(241, 176, 198);
+    align-items: center;
+    padding: 1rem;
+     margin: 20px;
+}
+
+
+.small-box2 {
+    width: calc(35% - 2rem);
+    height: calc(35% - 2rem);
+    border: 1px solid rgb(98, 155, 115);
+    background-color: rgb(61, 161, 104);
+    align-items: center;
+    padding: 1rem;
+    margin: 10px;
+}
+
+.small-box3 {
+    width: 35%;
+    height: 35%;
+    border: 1px solid rgb(208, 212, 209);
+    background-color: rgb(234, 240, 234);
+    align-items: center;
+    margin: 10px;
+}
+.small-box2 i{
+    font-size: 3rem;
+    text-align: center;
+    
+}
+.small-box3 i{
+    font-size: 3rem;
+    color: black;
+ margin-top: 10px;
+ margin-left: 20px;
+    
+}
+.small-box1 i{
+    font-size: 3rem;
+    color: black;
+  
+}
+
+#box1 {
+    background-color: white;
+}
+
+#box2 {
+    background-color: white;
+}
+
+#box3 {
+    background-color: rgb(61, 135, 247);
+}
+
+h4 {
+    color: black;
+}
+
+#box1 p {
+    color: black;
+}
+
+#box2 {
+    color: black;
+}
+.nav-bar2 h1{
+text-align: center;
+
+}
+
+.nav-bar2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
